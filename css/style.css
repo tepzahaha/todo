@@ -1,0 +1,94 @@
+
+body{
+  background: url("../images/bg.jpg") no-repeat;
+  background-size: 100% 100%;
+  height:100vh;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+ul {
+  display:table; margin:0 auto;
+  list-style-type : none;
+  font-size: 20px;
+}
+
+#head{
+  text-align: center;
+}
+.input{
+  text-align: center;
+}
+
+.complete{
+  text-decoration: line-through;
+}
+
+.button {
+   border: 2px solid #000000;
+   background: #3a5669;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0090f0), to(#3a5669));
+   background: -webkit-linear-gradient(top, #0090f0, #3a5669);
+   background: -moz-linear-gradient(top, #0090f0, #3a5669);
+   background: -ms-linear-gradient(top, #0090f0, #3a5669);
+   background: -o-linear-gradient(top, #0090f0, #3a5669);
+   background-image: -ms-linear-gradient(top, #0090f0 0%, #3a5669 100%);
+   padding: 14px 28px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #000000 0 1px 0;
+   color: #ffffff;
+   font-size: 17px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+.button:hover {
+   border: 2px solid #ffffff;
+   text-shadow: #1e4158 0 1px 0;
+   background: #56595c;
+   background: -webkit-gradient(linear, left top, left bottom, from(#5d6870), to(#56595c));
+   background: -webkit-linear-gradient(top, #5d6870, #56595c);
+   background: -moz-linear-gradient(top, #5d6870, #56595c);
+   background: -ms-linear-gradient(top, #5d6870, #56595c);
+   background: -o-linear-gradient(top, #5d6870, #56595c);
+   background-image: -ms-linear-gradient(top, #5d6870 0%, #56595c 100%);
+   color: #ffcc00;
+}
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 2px solid #0a3c59;
+   background: #687a00;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffdd00), to(#56595c));
+   background: -webkit-linear-gradient(top, #ffdd00, #687a00);
+   background: -moz-linear-gradient(top, #ffdd00, #687a00);
+   background: -ms-linear-gradient(top, #ffdd00, #687a00);
+   background: -o-linear-gradient(top, #ffdd00, #687a00);
+   background-image: -ms-linear-gradient(top, #ffdd00 0%, #687a00 100%);
+   color: #ffffff;
+}
+
+.task-input {
+   border: 4px solid #7587ff;
+   background: #ffffff;
+   -webkit-border-radius: 14px;
+   -moz-border-radius: 14px;
+   border-radius: 14px;
+   color: #000000;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+}
+.task-input:focus {
+   background: #fff;
+   color: #000000;
+}
