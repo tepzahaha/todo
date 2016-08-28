@@ -6,23 +6,39 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+  <h1 id="head">TO DO LIST</h1>
+
+  <div class="status">
+    <pre>Items list : 0                        <font color="green">Items Completed : 0</font></pre>
+  </div>
+
+
+  <div id="table-wrapper">
+    <div id="table-scroll">
+        <table class="content">
+
+        </table>
+    </div>
+  </div>
+
   <br><br>
-  <h1 id="head">TO DO LISTS</h1>
-  <ul class="content">
-  </ul>
-  <br><br>
+
   <div class="input">
     <input type="text" name="task" value="" class="task-input">
     <br><br><br>
+
     <span class="btn-add">
       <a href="#" class="button">ADD LIST</a>
     </span>
+
     <span class="btn-clear-complete">
       <a href="#" class="button">Clear Completed Lists</a>
     </span>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js">
-    </script>
+    <script type="text/javascript" src="js/script.js"></script>
+
   </div>
+
   </body>
 </html>

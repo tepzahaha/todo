@@ -1,0 +1,11 @@
+v0.75
+-change the show list type to table type
+-trap when input is empty >> DO NOTHING
+-change checkbox icon
+-change remove icon
+-add Item's Counter
+-add scroll mode for view list
+
+
+v1.0
+-fix bug item's Counter
